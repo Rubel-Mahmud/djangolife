@@ -1,12 +1,12 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>index</title>
-    <link rel="stylesheet" href="{% static 'video/style.css' %}"/>
-</head>
-<body>
-    <p>All is done. Now, you have to setup your database. and go ahead..</p>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}videos{% endblock title %}
+
+{% block content %}
+    <h4>My All Songs :</h4>
+    <ul>
+        {% for song in songs %}
+            <li>{{song.title}} {{song.embed|safe}}</li>
+        {% endfor %}
+    </ul>
+{% endblock content %}
