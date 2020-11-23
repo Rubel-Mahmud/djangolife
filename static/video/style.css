@@ -1,5 +1,9 @@
 body{
     font-size:30px;
     font-weight:bold;
-    padding : 150px 100px;
+    padding : 50px 100px 100px 100px;
+}
+
+input[type='text'],input[type='password'], input[type='submit']{
+    padding:4px 8px;
 }

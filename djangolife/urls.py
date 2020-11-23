@@ -16,10 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from video.views import index
+from video.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('', index, name='index'),
+    path('login/', SignIn, name='signin'),
 ]
