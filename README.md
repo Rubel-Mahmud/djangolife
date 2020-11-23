@@ -1,6 +1,7 @@
 DJANGOLIFE is a simple video store project.
 
 Installation :
+This project is still running..
   * lorem ipsum
   * lorem ipsum
   
