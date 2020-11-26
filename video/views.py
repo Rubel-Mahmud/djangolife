@@ -1,7 +1,6 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse,HttpResponseRedirect
 from django.contrib.auth import authenticate
-from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
 
 from video.models import video
@@ -35,13 +34,13 @@ def SignIn(request):
 
 def register(request):
     if request.method == 'POST':
-        form = UserCreationForm(request.POST)
+        form = CustomUserCreationForm(request.POST)
         if form.is_valid():
             form.save()
-            messages.success(request, 'user created successfully')
-            return HttpResponseRedirect('/login/')
+            messages.success(request, 'User created successfully')
+            return HttpResponseRedirect('/register/')
     else:
-        form = UserCreationForm()
+        form = CustomUserCreationForm()
     return render(request, 'video/register.html', {
         'form':form,
     })
