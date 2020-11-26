@@ -23,5 +23,5 @@ urlpatterns = [
 
     path('', index, name='index'),
     path('login/', SignIn, name='signin'),
-    path('signup/', SignUp, name='signup'),
+    path('register/', register, name='signup'),
 ]
