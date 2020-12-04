@@ -22,8 +22,8 @@ Installation :
         'PASSWORD': '',
         'HOST': '127.0.0.1',
         'PORT': '3306',
+     }
     }
-}
 
      4--> After that you have to makemigrations and migrate.Then run..
     * python manage.py makemigrations
