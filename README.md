@@ -32,7 +32,7 @@ Installation :
     * open your browser and enter the url : http://127.0.0.1:8000/ and hit enter..that's all.
 
 
-Note : If you will get any import error then install it using pip..
-       For windows users--install xamp or wamp server, create a database for your django project and edit settings.py file. 
-       You have to need a databse connector(it's may be 'mysql-client') installation for python.But in requirements.txt file it is already included.
-       Enjoy this project.Thank's
+     Note : If you will get any import error then install it using pip..
+            For windows users--install xamp or wamp server, create a database for your django project and edit settings.py file. 
+            You have to need a databse connector(it's may be 'mysql-client') installation for python.But in requirements.txt file it is already included.
+            Enjoy this project.Thank's
