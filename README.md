@@ -14,22 +14,22 @@ Installation :
      
      3--> Install and setup database Mysql. Change your settings.py file something like that :
      
-     DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'djangolife',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-     }
-    }
+          DATABASES = {
+         'default': {
+             'ENGINE': 'django.db.backends.mysql',
+             'NAME': 'djangolife',
+             'USER': 'root',
+             'PASSWORD': '',
+             'HOST': '127.0.0.1',
+             'PORT': '3306',
+          }
+         }
 
      4--> After that you have to makemigrations and migrate.Then run..
-    * python manage.py makemigrations
-    * python manage.py migrate
-    * python manage.py runserver
-    * open your browser and enter the url : http://127.0.0.1:8000/ and hit enter..that's all.
+         * python manage.py makemigrations
+         * python manage.py migrate
+         * python manage.py runserver
+         * open your browser and enter the url : http://127.0.0.1:8000/ and hit enter..that's all.
 
 
 Note : If you will get any import error then install it using pip..
