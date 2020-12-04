@@ -36,5 +36,5 @@ NOTE : IF YOU WILL GET ANY IMPORT ERROR THEN INSTALL IT USING PIP.
 
        For windows users--install xamp or wamp server, 
        create a database for your django project and edit settings.py file. 
-       You have to need a databse connector(it's may be 'mysql-client') installation for python.But in requirements.
-       txt file it is already included.Enjoy this project.Thank's
+       You have to need a databse connector(it's may be 'mysql-client') installation for python.
+       But in requirements.txt file it is already included.Enjoy this project.Thank's
