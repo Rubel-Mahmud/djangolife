@@ -2,6 +2,10 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.contrib.auth.forms import UserCreationForm
 
+from rest_framework.viewsets import ModelViewSet
+from rest_framework.routers import DefaultRouter
+from .serializers import VideoSerializer
+
 from video.models import video
 
 from video.forms import *
@@ -43,3 +47,11 @@ def Register(request):
     return render(request, 'video/register.html', {
         'form':form,
     })
+
+
+class VideoViewSet(ModelViewSet):
+    queryset = video.objects.all()
+    serializer_class = VideoSerializer
+
+router = DefaultRouter()
+router.register('video', VideoViewSet)
