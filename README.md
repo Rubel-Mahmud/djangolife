@@ -25,7 +25,7 @@ Installation :
     }
 }
 
-4--> After that you have to makemigrations and migrate.Then run..
+     4--> After that you have to makemigrations and migrate.Then run..
     * python manage.py makemigrations
     * python manage.py migrate
     * python manage.py runserver
