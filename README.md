@@ -1,10 +1,5 @@
-lorem ipsum lorem ipsum
-        1 dfjgn
-        2 dgldg
-        3 dfgmdlgm
-   bhbjbjj
-        
-DJANGOLIFE is a simple video store project.This project keep a list of video and embed code.Any user can be create and login..Etc
+DJANGOLIFE-
+is a simple video store project.This project keep a list of video and embed code.Any user can be create and login..Etc
 In this project django beginners tropics was covered and django restframework basic also covered.
 
 Installation :
