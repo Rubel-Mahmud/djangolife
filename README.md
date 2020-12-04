@@ -1,5 +1,7 @@
 DJANGOLIFE-
+
 is a simple video store project.This project keep a list of video and embed code.Any user can be create and login..Etc
+
 In this project django beginners tropics was covered and django restframework basic also covered.
 
 Installation :
